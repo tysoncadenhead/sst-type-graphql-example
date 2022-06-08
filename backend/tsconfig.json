@@ -1,0 +1,15 @@
+{
+  "extends": "../tsconfig.json",
+  "include": ["functions", "graphql"],
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "target": "es2018",
+    "module": "es2022",
+    "lib": ["es2018", "esnext.asynciterable"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strict": false,
+    "baseUrl": "./"
+  }
+}
